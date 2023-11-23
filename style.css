@@ -89,3 +89,51 @@
     font-weight: 300;
     line-height: 160%;
 }
+
+/*Karol*/
+body{
+    font-family: 'inter';
+}
+
+.footer-body{
+    background-color: #F9FAFC;
+    display: flex;
+    padding: 3em 8em;
+    justify-content: space-between;
+}
+
+.footer-menu{
+    list-style: none;
+    line-height: 180%;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: #3C4B58;
+}
+
+.footer-menu li a:hover{
+    text-decoration: underline;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container p {
+    color: #C11616;
+    font-style: italic;
+}
+
+.logo-container p span {
+    font-weight: bold;
+}
+
+.footer-logo{
+    width: 100%;
+    background-color: #EFF2F7;
+    text-align: center;
+    padding: .625em 0;
+}
